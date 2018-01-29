@@ -2,7 +2,7 @@
 
  Auth0 Universal Login with Phoenix & Elixir - as a Regular Web Application using code authorization grant flow.
 
- Note on versions: This sample was developed and tested against:
+ Note on versions. This sample was developed and tested against:
 
  - Elixir v1.6
  - Phoenix v1.3
@@ -30,7 +30,7 @@ Under Advanced Settings -> Oauth, switch ON the OIDC Conformant toggle.
 Set up a Database connection, and optionally social connections.
 For example, test against Auth0 DB Connection and Google Social Auth.
 
-Note: Ordinarily, Phoenix apps by defualt use port 3000.
+Note: Ordinarily, Phoenix apps by default use port 3000.
 This sample uses port 3000 - see `config/dev.exs`
 
 ### Locally
