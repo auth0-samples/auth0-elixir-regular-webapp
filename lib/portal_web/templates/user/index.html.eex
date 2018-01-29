@@ -1,0 +1,7 @@
+<br>
+<div class="w3-container">
+  <div class="w3-card-4 w3-center" style="padding: 15px;">
+    <img src="<%= @user.avatar %>" />
+    <p>Welcome <%= @user.name %></p>
+  </div>
+</div>

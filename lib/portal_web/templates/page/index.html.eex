@@ -1,0 +1,7 @@
+<div class="w3-container">
+  <%= if @current_user do %>
+    <h4>You are logged in!</h4>
+  <% else %>
+  <h4>You are not logged in! Please <a href="/auth/auth0?state=123">Log In</a> to continue.</h4>
+  <% end %>
+</div>
