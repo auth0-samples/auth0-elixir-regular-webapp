@@ -69,7 +69,7 @@ or alternatively:
 
 Now you can visit [`localhost:3000`](http://localhost:3000) from your browser.
 
-Ready to run in production? Please [check our deployment guides](http://www.phoenixframework.org/docs/deployment).
+Ready to run in production? Please [check the Phoenix deployment guides](http://www.phoenixframework.org/docs/deployment).
 
 ## Learn more about phoenix
 
