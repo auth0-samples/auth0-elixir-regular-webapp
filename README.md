@@ -47,11 +47,14 @@ To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
   * Install Node.js dependencies with `cd assets && npm install`
-  * Start Phoenix endpoint with `mix phx.server`
-  * AUTH0_DOMAIN={your_tenant_name}.auth0.com \
-    AUTH0_CLIENT_ID={your_client_id}\
-    AUTH0_CLIENT_SECRET={your_client_secret}\
+  * Start Phoenix endpoint with `mix phx.server` putting env variables first
+    
+    ```
+    AUTH0_DOMAIN={your_tenant_name}.auth0.com \
+    AUTH0_CLIENT_ID={your_client_id} \
+    AUTH0_CLIENT_SECRET={your_client_secret} \
     mix phx.server
+    ```
 
   Example:
 
