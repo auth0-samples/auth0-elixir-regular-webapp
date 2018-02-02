@@ -80,6 +80,14 @@ Ready to run in production? Please [check the Phoenix deployment guides](http://
   * Source: https://github.com/phoenixframework/phoenix
 
 
+## Running the Sample With Docker
+
+In order to run the example with docker you need to have `docker` installed.
+
+Rename `.env.example` to `.env` and populate it with the client ID, domain, secret for your Auth0 app.
+
+Execute in command line `sh exec.sh` to run the Docker in Linux, or `.\exec.ps1` to run the Docker in Windows.
+
 ## What is Auth0?
 
 Auth0 helps you to:
@@ -102,7 +110,7 @@ If you have found a bug or if you have a feature request, please report them at 
 
 ## Author
 
-[Auth0](auth0.com)
+[Auth0](https://auth0.com)
 
 ## License
 
